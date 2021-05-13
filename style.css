@@ -714,33 +714,3 @@ color: var(--accent-blue);
     color: var(--second-white-bg);
     background-color: var(--accent-blue);
 }
-.overlay-box{
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-}
-.overlay-project-info{
-    position: absolute;
-	top: 0;
-	left: 0;
-
-	width: 100%;
-	height: 100%;
-
-	display: flex;
-
-	padding: 63px 24px;
-	transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-	transform: translateY(100%);
-
-	font-weight: 400;
-	font-size: 18px;
-	line-height: 1.567;
-
-	color: var(--main-title-text);
-	background-color: rgba(33, 150, 243, 0.9);
-}
-.li-align .portfolio-ticket:hover .overlay-project-info,
-.li-align .portfolio-ticket:focus .overlay-project-info{
-    transform: translateY(0);
-}

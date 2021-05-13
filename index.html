@@ -53,7 +53,7 @@
         <section class="hero-section">
             <div class="container-first-section">
                     <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-                    <button type="button" class="hero-button">Заказать услугу</button>
+                    <button type="button" class="hero-button" data-modal-open>Заказать услугу</button>
             </div>
         </section>
         <!--2 section-->
@@ -291,40 +291,32 @@
                         </a>
                     </li>
                     <li class="li-client-icon-place">
-                        <div>
                         <a href="" class="client-icon-place">
                             <svg class="client-svg" width="41px" height="42.6px">
                                 <use href="./images/icons/sprite.svg#icon-client3"></use>
                             </svg>
                         </a>
-                        </div>
                     </li>
                     <li class="li-client-icon-place">
-                        <div>
                         <a href="" class="client-icon-place">
                             <svg class="client-svg" width="79.66px" height="42.02px">
                                 <use href="./images/icons/sprite.svg#icon-client4"></use>
                             </svg>
                         </a>
-                        </div>
                     </li>
                     <li class="li-client-icon-place">
-                        <div>
                         <a href="" class="client-icon-place">
                             <svg class="client-svg" width="59px" height="47px">
                                 <use href="./images/icons/sprite.svg#icon-client5"></use>
                             </svg>
                         </a>
-                        </div>
                     </li>
                     <li class="li-client-icon-place">
-                        <div>
                         <a href="" class="client-icon-place">
                             <svg class="client-svg" width="88.48px" height="45.44px">
                                 <use href="./images/icons/sprite.svg#icon-client6"></use>
                             </svg>
                         </a>
-                        </div>
                     </li>
                 </ul>
             </div>
@@ -381,6 +373,13 @@
             </div>
         </div>
     </footer>
-
+    <div class="blackdrop is-hidden" data-modal>
+        <div class="modal">
+            <button class="modal-btn-close" data-modal-close>X</button>
+            <p class="modal-title">Title</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, quo.</p>
+        </div>
+    </div>
+    <script src="./js/modal.js"></script>
 </body>
 </html> 
