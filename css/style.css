@@ -55,8 +55,6 @@ body {
 .header-flex{
     display: flex;
     align-items: center;
-    padding-top: 32px;
-    padding-bottom: 32px;
     border-bottom: 1px solid #ececec;
 }
 .address-icon{
@@ -92,8 +90,12 @@ body {
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-
     color: var(--second-title);
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.border-under{
+    border-bottom: 4px solid var(--accent-blue);
 }
 
 .menu-nav {
@@ -740,7 +742,7 @@ color: var(--accent-blue);
 	color: var(--main-title-text);
 	background-color: rgba(33, 150, 243, 0.9);
 }
-.li-align .portfolio-ticket:hover .overlay-project-info,
-.li-align .portfolio-ticket:focus .overlay-project-info{
+.portfolio-ticket:hover .overlay-project-info,
+.portfolio-ticket:focus .overlay-project-info{
     transform: translateY(0);
 }
