@@ -95,8 +95,11 @@ body {
     padding-bottom: 32px;
 }
 .border-under{
+    animation-name:  opacityIn;
+    animation-duration: 750ms;
     border-bottom: 4px solid var(--accent-blue);
 }
+
 
 .menu-nav {
 	display: flex;
@@ -745,4 +748,18 @@ color: var(--accent-blue);
 .portfolio-ticket:hover .overlay-project-info,
 .portfolio-ticket:focus .overlay-project-info{
     transform: translateY(0);
+}
+
+@keyframes opacityIn{
+    0% {
+        opacity: 0.1;
+    }
+    
+    80% {
+        opacity: 0.7;
+    }
+    
+    100% {
+        opacity: 1;
+    }
 }
