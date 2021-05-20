@@ -290,6 +290,7 @@ body {
 .freak-icon{
 }
 .section3photo{
+    position: relative;
     display: block;
     max-width: 100%;
 }
@@ -352,6 +353,30 @@ margin-bottom: 10px;
     color: var(--maint-body-text);
     margin-top: 0px;
     margin-bottom: 16px;
+}
+.what-we-job{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    width: 370px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(40, 43, 44, 0.8);
+}
+.what-we-say{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(232, 230, 227);
 }
 .stuff{
     padding-top: 30px;
@@ -634,7 +659,6 @@ color: var(--accent-blue);
 	
 	color: var(--rimary-title-color);
 	background-color: var(--second-white-bg);
-
 	border-radius: 4px;	
 }
 .portfolio-kind {
@@ -648,12 +672,11 @@ color: var(--accent-blue);
 }
 .portfolio-kind button:hover,
 .portfolio-kind button:focus {
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 
 	background-color: var(--accent-blue);
 	color: var(--main-title-text);
+    transition-duration: 3000ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-button {
     font-family: Roboto;
